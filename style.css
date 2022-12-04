@@ -125,6 +125,39 @@ section > p:nth-child(2) {
   text-align: right;
 }
 
+.last-section {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action-container {
+  background-color: #3882f6;
+  display:flex;
+  padding: 2vh 3vw;
+  width:70vw;
+  height:15vh;
+  border-radius: 0.7em;
+  align-items: center;
+  color: #E5E7EB;
+}
+
+.call-to-action {
+  flex-grow:2;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.signup {
+  flex-grow: 1;
+}
+
+.signup button {
+  border:1px solid #F9FAF8
+}
+
 footer {
   display:flex;
   justify-content: center;
